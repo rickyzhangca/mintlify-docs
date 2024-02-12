@@ -48,6 +48,16 @@
       "url": "https://mintlify.com/blog"
     }
   ],
+  "redirects": [
+    {
+      "source": "/essentials/:page*",
+      "destination": "/quickstart"
+    },
+    {
+      "source": "/api-reference/:page*",
+      "destination": "https://www.google.ca"
+    }
+  ],
   "navigation": [
     {
       "group": "Get Started",
